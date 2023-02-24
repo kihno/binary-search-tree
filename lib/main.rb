@@ -12,13 +12,13 @@ p my_tree.preorder
 p my_tree.inorder
 p my_tree.postorder
 
-my_tree.insert(57)
-my_tree.insert(13)
-my_tree.insert(5)
-my_tree.insert(91)
-my_tree.insert(27)
-my_tree.insert(50)
-my_tree.insert(68)
+my_tree.insert(rand(1..100))
+my_tree.insert(rand(1..100))
+my_tree.insert(rand(1..100))
+my_tree.insert(rand(1..100))
+my_tree.insert(rand(1..100))
+my_tree.insert(rand(1..100))
+my_tree.insert(rand(1..100))
 
 my_tree.pretty_print
 p my_tree.balanced?
